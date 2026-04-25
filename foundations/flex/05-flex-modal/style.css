@@ -67,3 +67,43 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* start */
+
+.modal {
+  display: flex;
+  padding: 8px;
+}
+
+.part {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8px;
+}
+
+.top {
+  display: flex;
+  flex-shrink: 0;
+  font-weight: bolder;
+  font-size: large;
+
+  margin-bottom: 8px;
+}
+
+.bottom {
+  margin-top: 8px;
+  display: flex;
+  flex-shrink: 0;
+  margin-right: 4px;
+}
+
+.header {
+  margin-right: auto;
+}
+
+
+/* after seeing soln */
+
+.icon {
+  flex-shrink: 0;
+}
